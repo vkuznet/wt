@@ -1,0 +1,104 @@
+/* For Mobile */
+@media screen and (max-width: 568px) {
+    body {
+/*        padding:2vw;*/
+        color:#000;
+        background:#EBEBEB;
+        opacity: 0.7;
+        font-family: 'Trebuchet MS', sans-serif;
+        min-height: 100vw;
+    }
+    .my-header {
+        min-height: 2%;
+        background: white;
+    }
+    .my-menu {
+        padding: 1vw;
+        height: 50%;
+    }
+    .my-h3 {
+        font-size:2vw;
+        font-weight: bold;
+    }
+    .my-record {
+        padding: 5vw;
+        font-size:5vw;
+        font-weight: bold;
+    }
+    .drop-area {
+        height: 20%;
+        background: #C0C0C0;
+        display: inline-block;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 768px) {
+    body {
+        color:#000;
+        background:#EBEBEB;
+        opacity: 0.7;
+        font-family: 'Trebuchet MS', sans-serif;
+        min-height: 100vw;
+    }
+    .my-header {
+        height: 10%;
+        background: white;
+    }
+    .my-menu {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .my-h3 {
+        font-size:20px;
+        font-weight: bold;
+    }
+    .drop-area {
+        height: 400px;
+        background: #C0C0C0;
+    }
+}
+
+/* Common CSS rules */
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.show-inline {
+    display: inline-block;
+}
+.drop-area-text {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+    align-items: center;
+}
+.font-menu {
+    font-weight: bold;
+}
+.main {
+  min-height: 80%;
+}
+.main-content {
+  flex: 1;
+}
+
+.is-navbar .is-active a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;
+}
+.my-footer {
+    text-align: center;
+}
+.my-col {
+    min-width: 70%;
+    min-height: 20%;
+}
+.my-image {
+    max-width:80%;
+    height:auto;
+}
